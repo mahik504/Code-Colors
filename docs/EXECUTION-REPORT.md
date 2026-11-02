@@ -90,18 +90,21 @@
 
 ## E. GitHub Repository
 
-- **Repository Target**: `https://github.com/mahik504/Code-Colors`
+- **Repository Target**: [mahik504/Code-Colors](https://github.com/mahik504/Code-Colors)
 - **Repository Slug**: `Code-Colors`
 - **Account**: `mahik504`
 - **Default Branch**: `main`
-- **Release Tag**: `v1.0.0`
+- **Release Tag**: [v1.0.0](https://github.com/mahik504/Code-Colors/releases/tag/v1.0.0)
+- **Release Asset**: `download/code-colors-local.zip` attached and published.
 - **Commit History**: Independent repository initialization with clean commit messages.
 
 ---
 
 ## F. Deployment
 
-- **Deployment Configuration**: `vercel.json` configured for client-side static rendering, CORS, COOP/COEP headers.
+- **Vercel Production Deployment**: [https://rushing-jasper-z8atiqp.tmp.now](https://rushing-jasper-z8atiqp.tmp.now)
+- **Vercel Claim Link**: [Claim this deployment](https://vercel.com/claim-deployment?code=6053dee1-3513-4ea4-bd9c-e4095645c4f6)
+- **GitHub Pages Deployment**: [https://mahik504.github.io/Code-Colors/](https://mahik504.github.io/Code-Colors/)
 - **Hosted-Only Limitations**: Native Syphon/Spout bridge and certain camera/microphone permissions are restricted by browser security policies in third-party iframe or non-secure contexts. Offline operation fully functional via local server.
 
 ---
