@@ -102,8 +102,8 @@
 
 ## F. Deployment
 
-- **Vercel Production Deployment**: [https://rushing-jasper-z8atiqp.tmp.now](https://rushing-jasper-z8atiqp.tmp.now)
-- **Vercel Claim Link**: [Claim this deployment](https://vercel.com/claim-deployment?code=6053dee1-3513-4ea4-bd9c-e4095645c4f6)
+- **Vercel Production Deployment**: [https://code-colors.vercel.app](https://code-colors.vercel.app)
+- **Vercel Deployment Inspector**: [https://vercel.com/xplane-ai/code-colors](https://vercel.com/xplane-ai/code-colors)
 - **GitHub Pages Deployment**: [https://mahik504.github.io/Code-Colors/](https://mahik504.github.io/Code-Colors/)
 - **Hosted-Only Limitations**: Native Syphon/Spout bridge and certain camera/microphone permissions are restricted by browser security policies in third-party iframe or non-secure contexts. Offline operation fully functional via local server.
 
