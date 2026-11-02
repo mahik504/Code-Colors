@@ -1,0 +1,7 @@
+*.zip
+!download/code-colors-local.zip
+source-archive/
+staging/
+Code&Paint.zip
+node_modules/
+.git/
