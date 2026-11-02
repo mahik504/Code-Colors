@@ -1,0 +1,23 @@
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+*.tmp
+__pycache__/
+*.pyc
+
+# Local archives and staging
+*.zip
+!download/*.zip
+source-archive/
+staging/
+
+# Temporary migration scripts
+build_code_colors.py
+apply_rebrand.py
+check_scripts.js
+dump_script5.js
+script5_debug.js
+.vercel
