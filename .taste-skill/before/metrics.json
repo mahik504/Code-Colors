@@ -1,0 +1,12 @@
+{
+  "initial_load_ms": 5495.16,
+  "domContentLoaded_ms": 4226.5,
+  "load_ms": 4962,
+  "fcp_ms": 4068,
+  "lcp_ms": 4232,
+  "cls": 0.2925,
+  "error_count": 0,
+  "warning_count": 0,
+  "errors": [],
+  "warnings": []
+}

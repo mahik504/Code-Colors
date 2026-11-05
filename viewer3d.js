@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────
-//  Code&Paint 3D Object Input Engine
+//  Code&Colors 3D Object Input Engine
 //  Interactive three.js viewport rendered into a continuous stream for
 //  algorithmic stroke generation.
 //  Drag on the stage to turn the object (mouse or touch), scroll/pinch to zoom;
@@ -16,11 +16,11 @@ import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
 const SIZE = 1024;
 
-// Luminous iridescent demo knot for Code&Paint
+// Luminous iridescent demo knot for Code&Colors
 function demo() {
   const g = new THREE.TorusKnotGeometry(1, 0.35, 400, 56, 2, 3);
   const m = new THREE.MeshPhysicalMaterial({
-    color: 0x9d4edd,
+    color: 0x8f1738,
     roughness: 0.14,
     metalness: 0.25,
     clearcoat: 1.0,
@@ -28,7 +28,7 @@ function demo() {
     iridescence: 1.0,
     iridescenceIOR: 1.75,
     sheen: 0.6,
-    sheenColor: 0x00f59b,
+    sheenColor: 0xe9b9c5,
     reflectivity: 0.95
   });
   return new THREE.Mesh(g, m);
@@ -75,11 +75,11 @@ export async function open(file, dragEl) {
   keyLight.position.set(-3, 4, 5);
   scene.add(keyLight);
 
-  const rimLight = new THREE.DirectionalLight(0x9d4edd, 1.4);
+  const rimLight = new THREE.DirectionalLight(0xe9b9c5, 1.4);
   rimLight.position.set(4, -1, -3);
   scene.add(rimLight);
 
-  const fillLight = new THREE.DirectionalLight(0x00f59b, 0.8);
+  const fillLight = new THREE.DirectionalLight(0x8f1738, 0.8);
   fillLight.position.set(-4, -2, -2);
   scene.add(fillLight);
 
